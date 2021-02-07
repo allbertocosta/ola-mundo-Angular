@@ -12,6 +12,7 @@ describe('workspace-project App', () => {
     await page.navigateTo();
     expect(await page.getTitleText()).toEqual('ola-mundo app is running!');
   });
+  
 
   afterEach(async () => {
     // Assert that there are no errors emitted from the browser
